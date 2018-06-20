@@ -1,0 +1,61 @@
+@keyframes butanim {
+  from {
+    background-color: pink;
+  }
+  to {
+    background-color: #772963;
+  }
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+.container .custom-nav {
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 2px 2px #772963;
+}
+.container .custom-nav a {
+  color: black;
+}
+.container .jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background: white;
+  box-shadow: 0px 4px 6px 2px #772963;
+}
+.container .jumbotron .avatar {
+  height: 200px;
+  border: 2px solid black;
+  box-shadow: 0px 2px 6px 2px #772963;
+}
+.container .jumbotron .prettybtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 900;
+  box-shadow: 0px 2px 2px 2px pink;
+  background: #772963;
+  animation-name: butanim;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.container .jumbotron .prettybtn:hover {
+  height: 100px;
+  width: 200px;
+}
+.container .list-shadow {
+  box-shadow: 4px 4px 6px 2px #772963;
+}
+.container .footer p {
+  margin: 10px auto;
+  font-weight: 600;
+  box-shadow: 0px 2px 2px 2px #772963;
+  border-radius: 20px;
+  width: 250px;
+}
